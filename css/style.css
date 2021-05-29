@@ -1,0 +1,167 @@
+<style > * {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.parent {
+    width: 100%;
+    height: 100vh;
+    background-color: #19123b;
+}
+
+.child a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.child a:hover {
+    text-decoration: none;
+    color: brown;
+}
+
+.child li > a {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.child li > a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+.head h2,
+h3 {
+    color: #ffffff;
+}
+
+.running {
+    color: #f2ec2f;
+    font-weight: 500;
+}
+
+.main_div {
+    width: 60%;
+    height: 70%;
+
+}
+
+.container .card {
+    border: none;
+    border-top: 5px solid rgb(176, 106, 252);
+    background: #212042;
+    color: #ffff;
+    width: 100%;
+}
+
+/* admin information*/
+.parents {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #19123b;
+}
+
+/* admindash*/
+
+.dash_head .head_le a {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.dash_head .head_ri a {
+    font-size: 20px;
+    line-height: -50%;
+    color: #ffffff;
+}
+
+.dash_head .head_ri a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+.dash_main {
+    height: 84vh;
+
+
+}
+
+.dash_main p a {
+
+    color: #ffffff;
+    font-size: 18px;
+
+}
+
+.dash_main p a:hover {
+
+    text-decoration: none;
+}
+
+.dash_main p {
+    margin-top: 25px;
+}
+
+
+
+/* practice  ke liye   */
+
+
+.parent_head {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav_main {
+    height: 8vh;
+}
+
+.copy_right {
+    height: 8vh;
+
+}
+
+/* add   */
+
+.add_parent {
+    height: 80vh;
+    border: 1px solid green;
+}
+
+.add_child {}
+
+
+/* Update  */
+
+
+.table_img img {
+    width: 300px;
+    height: 200px;
+}
+
+.table_img .table_hd {
+    font-size: 20px;
+}
+
+.table_img th {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.table_img td {
+    font-weight: 20px;
+    color: #ffffff;
+}
+
+.index_output {
+    background-color: #19123b;
+    margin-top: -160px;
+    z-index: 2;
+
+}
+
+
+</style >
